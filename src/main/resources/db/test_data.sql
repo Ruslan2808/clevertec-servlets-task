@@ -1,0 +1,31 @@
+INSERT INTO product (name, price, is_promotional)
+VALUES ('Milk 3%', '1.5', true),
+       ('Rye Bread 500 g', '1.25', false),
+       ('Sausage 450 g', '8.54', false),
+       ('10 eggs', '6.58', false),
+       ('Cheese 250 g', '2.55', true),
+       ('Yogurt 150 g', '0.89', false),
+       ('Rice 1 kg', '1.58', false),
+       ('Meat 1 kg', '25.73', false),
+       ('Orange 1 kg', '6.68', true),
+       ('Bananas 1 kg', '4.68', true),
+       ('Pasta 1kg', '8.65', false),
+       ('Apple 1 kg', '15.93', true),
+       ('Chicken 500 g', '12.22', false),
+       ('Cookies 250 g', '4.12', true),
+       ('Ice cream', '2.5', false),
+       ('Orange juice 1 liter', '2.84', false),
+       ('Chips 90 g', '1.89', true),
+       ('Chocolate 100 g', '1.21', false),
+       ('Fish 500 g', '17.15', false),
+       ('Sugar 1 kg', '1.75', false),
+       ('Tea 100 g', '4.5', true),
+       ('Coffee 100 g', '7.54', true),
+       ('Olive oil 1 liter', '5.12', false),
+       ('Salt 1 kg', '1.1', false),
+       ('Strawberry 1 kg', '10.53', false);
+
+INSERT INTO discount_card (number, discount)
+VALUES ('1234', '3'),
+       ('5678', '4'),
+       ('9012', '5');

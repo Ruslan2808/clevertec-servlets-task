@@ -1,0 +1,5 @@
+datasource:
+  driver-class-name: org.postgresql.Driver
+  url: jdbc:postgresql://localhost:8000/receipt_db
+  username: postgres
+  password: root
