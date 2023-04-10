@@ -17,6 +17,7 @@ To start the project you need to perform the following steps:
    set the **```port```**, **```database name```**, **```username```** and **```password```**
 4. using the *terminal* or *cmd* go to the folder with this project
 5. enter the command ***gradle build*** and wait for it to complete
+6. In the deployment war file change the Application Context to - /
 
 ## endpoints
 
